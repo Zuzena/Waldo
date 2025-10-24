@@ -6,21 +6,24 @@ using UnityEngine.UIElements;
 
 public class CameraMovement: MonoBehaviour
 {
-    private Camera camera;
+    private new Camera camera;
     private Bounds bounds;
 
     private bool isZoomed = false;
     private bool canZoom = false;
-
     private float targetZoom;
-    private float defaultZoom = 0.6f;
+    
+    [Header("Camera Settings")]
+    public float cursorFollowSpeed = 1.0f;
 
-    [Header("Tuning")]
-    public float followSpeed = 1.0f;
     public float zoomSpeed = 5.0f;
     public float zoomAmount = 0.6f;
+    public float defaultZoom = 0.6f;
 
+    [Header("Background info for camera bounds")]
     public SpriteRenderer background;
+
+    [Header("Other")]
     public int level = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -52,15 +55,14 @@ public class CameraMovement: MonoBehaviour
             {
                 targetZoom = defaultZoom * zoomAmount;
                 isZoomed = true;
-                canZoom = false;
             }
             // zoom out
             else if (scrollValue < 0f && isZoomed)
             {
                 targetZoom = defaultZoom;
                 isZoomed = false;
-                canZoom = false;
             }
+            canZoom = false;
         }
 
         // enable zoom once back to original position
@@ -77,9 +79,11 @@ public class CameraMovement: MonoBehaviour
         mousePosition = camera.ScreenToWorldPoint(mousePosition);
         mousePosition.z = camera.transform.position.z;
 
-        Vector3 cameraTarget = ClampCameraPosition(mousePosition);
-
-        camera.transform.position = Vector3.Lerp(camera.transform.position, cameraTarget, Time.deltaTime * followSpeed);
+        if (!isZoomed)
+        {
+            Vector3 cameraTarget = ClampCameraPosition(mousePosition);
+            camera.transform.position = Vector3.Lerp(camera.transform.position, cameraTarget, Time.deltaTime * cursorFollowSpeed);
+        }
     }
 
     private Vector3 ClampCameraPosition(Vector3 mousePosition)
