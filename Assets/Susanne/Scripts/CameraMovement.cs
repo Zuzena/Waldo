@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class CameraMovement: MonoBehaviour
 {
-    private new Camera camera;
+    private Camera camera;
     private Bounds bounds;
 
     private bool isZoomed = false;
@@ -26,11 +26,11 @@ public class CameraMovement: MonoBehaviour
     [Header("Other")]
     public int level = 1;
 
+    void Awake() => camera = Camera.main;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // set camera and bounds from background
-        camera = Camera.main;
+        // set bounds from background
         bounds = background.bounds;
 
         // zoom in at the begining
