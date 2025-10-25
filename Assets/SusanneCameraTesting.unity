@@ -272,7 +272,7 @@ MonoBehaviour:
   cursorFollowSpeed: 1
   zoomSpeed: 1
   zoomAmount: 0.6
-  defaultZoom: 0.6
+  defaultZoom: 1
   background: {fileID: 1805718077}
   level: 1
 --- !u!1 &1216057715
@@ -434,7 +434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8956c7b454a50ad4e8ba4021dcf51438, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f31140d9dcf6cf47acda3495493c7c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
