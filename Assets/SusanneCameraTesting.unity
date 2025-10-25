@@ -150,6 +150,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &290590266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.29155
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3316
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581654642625379825, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324814396032534009, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324814396032534009, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3323252573416765522, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
+      propertyPath: m_Name
+      value: ClickableItem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43321c62a1f9cef438c17fb83b2089db, type: 3}
 --- !u!1001 &586710638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -357,9 +430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f84807f4722ff90468c68d522200191d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraManager
-  followUnlocked: 0
-  zoomUnlocked: 0
-  paintingTarget: {fileID: 253375805}
   targetOrthoSize: 2.5
   zoomDuration: 1.2
   cursorFollowSpeed: 1
@@ -367,7 +437,6 @@ MonoBehaviour:
   zoomAmount: 0.6
   defaultZoom: 0.6
   background: {fileID: 1686484677}
-  level: 1
 --- !u!1001 &786067215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -546,6 +615,9 @@ MonoBehaviour:
   collectibleMask:
     serializedVersion: 2
     m_Bits: 8
+  interactableMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &1353830798
 Transform:
   m_ObjectHideFlags: 0
@@ -743,6 +815,7 @@ MonoBehaviour:
   - Ink
   - Paint
   - Plant
+  interactableItems: []
   nextSceneName: SusanneTest3
 --- !u!4 &1881532974
 Transform:
@@ -830,3 +903,4 @@ SceneRoots:
   - {fileID: 786067215}
   - {fileID: 1027931134}
   - {fileID: 1721189593}
+  - {fileID: 290590266}
