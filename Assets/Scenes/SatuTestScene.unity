@@ -779,7 +779,7 @@ MonoBehaviour:
   paintingTarget: {fileID: 38196248}
   targetOrthoSize: 2.5
   zoomDuration: 1.2
-  nextSceneName: SampleScene
+  nextSceneName: SusanneCameraTesting
 --- !u!4 &2096279185
 Transform:
   m_ObjectHideFlags: 0

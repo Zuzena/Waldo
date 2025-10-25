@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SatuTestScene.unity
     guid: 5cc00019a97363d4da8845831d925644
+  - enabled: 1
+    path: Assets/SusanneCameraTesting.unity
+    guid: c6b79432febae074c95e7fe83a14a7c4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
