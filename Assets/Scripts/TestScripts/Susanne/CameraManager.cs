@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CameraManager: MonoBehaviour
 {
-    private static CameraManager instance;
+    public static CameraManager instance { get; private set; }
     private Camera camera;
     private Bounds bounds;
 
@@ -38,12 +38,16 @@ public class CameraManager: MonoBehaviour
 
     void Awake()
     {
-        if (instance != null && instance != this)
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
+        else
         {
             Destroy(gameObject);
-            return;
         }
-        instance = this;
 
         //dont destroy camera! also set camera and safe startzoom for later use
         DontDestroyOnLoad(gameObject);
