@@ -12,7 +12,10 @@ public class CameraMovement: MonoBehaviour
     private bool isZoomed = false;
     private bool canZoom = false;
     private float targetZoom;
-    
+
+    public bool followUnlocked = false;
+    public bool zoomUnlocked = false;
+
     [Header("Camera Settings")]
     public float cursorFollowSpeed = 1.0f;
 
@@ -45,6 +48,15 @@ public class CameraMovement: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        handleZoom();
+
+        followCursor();
+    }
+
+    private void handleZoom()
+    {
+        //if (!zoomUnlocked) return;
+
         // read value from scroll
         float scrollValue = Input.GetAxis("Mouse ScrollWheel");
 
@@ -70,8 +82,13 @@ public class CameraMovement: MonoBehaviour
         {
             canZoom = true;
         }
- 
+
         camera.orthographicSize = Mathf.Lerp(camera.orthographicSize, targetZoom, Time.deltaTime * zoomSpeed);
+    }
+
+    private void followCursor()
+    {
+        //if (!followUnlocked) return;
 
         // get mouse position
         Vector3 mousePosition = Mouse.current.position.ReadValue();
