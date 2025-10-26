@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
@@ -9,7 +10,7 @@ public class ObjectMovement : MonoBehaviour
   private Vector3 targetPosition;
   private bool isMoving = false;
   private bool movedLeft = false;
-  private Camera 
+  private Camera camera;
 
   // Start is called once before the first execution of Update after the MonoBehaviour is created
   void Start()
@@ -19,30 +20,36 @@ public class ObjectMovement : MonoBehaviour
   }
 
   // Update is called once per frame
- 
 
-    void Update()
+
+  void Update()
   {
-      if (Input.GetMouseButtonDown(0))
+    if (Input.GetMouseButtonDown(0))
     {
-        Vector3 mousePosition = 
-       } 
+      //gets mouseposition to world space
+      Vector3 mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
+      mousePosition.z = 0f;
 
-      if (isMoving)
-    {
-        
-        transform.position += Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-
-        //stop moving once we reach the target
-      }
-      if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
+      Collider2D overLap = Physics2D.OverlapPoint(mousePosition);
+      if (overLap != null && !isMoving)
       {
-        isMoving = false;
+        isMoving = true;
+        targetPosition = transform.position + Vector3.left * moveDistance;
+      }
+    }  
+        //stop moving once we reach the target
+      
+      if (isMoving)
+      {
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
+        {
+          isMoving = false;
 
+        }
       }
     }
   }
 
-  
 
 
