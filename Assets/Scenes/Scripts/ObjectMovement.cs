@@ -5,8 +5,8 @@ public class ObjectMovement : MonoBehaviour
   [Header("Movement Setting")]
   [SerializeField] private float moveDistance = 2f;
   [SerializeField] private float moveSpeed = 3f;
-  // [SerializeField] private float tiltAngle = 15f;
-  // [SerializeField] private float rotationSpeed = 180f;
+  [SerializeField] private float tiltAngle = 15f;
+  [SerializeField] private float rotationSpeed = 180f;
 
 [Header("Movement Direction")]
   public bool moveLeft;
@@ -93,9 +93,21 @@ public class ObjectMovement : MonoBehaviour
       {
       transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
         
-        // Rotate clockwise at 90 degrees per second
-            float rotationSpeed = 90f; // degrees per second
-            transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
+        // Rotate clockwise at 90 degrees per second but this doesn't work for an isometric diamond
+            // float rotationSpeed = 90f; // degrees per second
+            // transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
+            // Tilt while moving
+
+            // the below is for dealing with isometric assets
+            // float targetAngle = isAtStart ? 0f : tiltAngle; //new way of writing the below
+            float targetAngle;
+                if (isAtStart)
+                      targetAngle = 0f;
+                else
+                      targetAngle = tiltAngle;
+            float currentZ = transform.eulerAngles.z;
+            float newAngle = Mathf.MoveTowardsAngle(currentZ, targetAngle, rotationSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Euler(0, 0, newAngle);
 
         if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
         {
