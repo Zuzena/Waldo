@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ItemInteract : MonoBehaviour
+public class Interactable : MonoBehaviour
 {
     // !!Later use for effects!!
     public UnityEvent onClicked;

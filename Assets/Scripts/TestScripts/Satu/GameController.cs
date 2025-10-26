@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     public List<string> requiredItemIds = new();
 
     [Header("Interactable")]
-    public List<ItemInteract> interactableItems = new();
+    public List<Interactable> interactableItems = new();
 
     [Header("Next Scene")]
     [Tooltip("Scene to load after zoom completes.")]
@@ -54,7 +54,7 @@ public class GameController : MonoBehaviour
     }
 
     // Called by ClickCollector when a interactable was clicked
-    public void Interact(ItemInteract item)
+    public void Interact(Interactable item)
     {
         if (!interactableItems.Contains(item)) return;
         item.Clicked();
@@ -62,7 +62,10 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
-        yield return StartCoroutine(cameraManager.ZoomToPainting());
-        SceneManager.LoadScene(nextSceneName);
+        if (nextSceneName != null)
+        {
+            yield return StartCoroutine(cameraManager.ZoomToPainting());
+            SceneManager.LoadScene(nextSceneName);
+        } 
     }
 }

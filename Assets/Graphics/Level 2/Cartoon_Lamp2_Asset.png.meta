@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 1c7e40b47f6e1aa4b8f903cc189949d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2374443909168646036
+    second: Cartoon_Lamp2_Asset_0
+  - first:
+      213: 1691990918290084238
+    second: Cartoon_Lamp2_Asset_1
+  - first:
+      213: -8279218974496398792
+    second: Cartoon_Lamp2_Asset_2
+  - first:
+      213: 3394509993614403774
+    second: Cartoon_Lamp2_Asset_3
+  - first:
+      213: 4578278254110382466
+    second: Cartoon_Lamp2_Asset_4
+  - first:
+      213: -6867574368081839291
+    second: Cartoon_Lamp2_Asset_5
+  - first:
+      213: -4748956400649185519
+    second: Cartoon_Lamp2_Asset_6
+  - first:
+      213: 9213456642698200833
+    second: Cartoon_Lamp2_Asset_7
+  - first:
+      213: 1263087824803350079
+    second: Cartoon_Lamp2_Asset_8
+  - first:
+      213: -7909463466732254536
+    second: Cartoon_Lamp2_Asset_9
+  - first:
+      213: -7143882867351625451
+    second: Cartoon_Lamp2_Asset_10
+  - first:
+      213: -1454091863409423831
+    second: Cartoon_Lamp2_Asset_11
+  - first:
+      213: 3074454145022919096
+    second: Cartoon_Lamp2_Asset_12
+  - first:
+      213: 7262429335750147898
+    second: Cartoon_Lamp2_Asset_13
+  - first:
+      213: -2980230623570140140
+    second: Cartoon_Lamp2_Asset_14
+  - first:
+      213: -38828923768918367
+    second: Cartoon_Lamp2_Asset_15
+  - first:
+      213: -6375066084243154724
+    second: Cartoon_Lamp2_Asset_16
+  - first:
+      213: -2664432736578298449
+    second: Cartoon_Lamp2_Asset_17
+  - first:
+      213: -6882489949099464457
+    second: Cartoon_Lamp2_Asset_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 96
+        width: 439
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68b9ee48d74c0fd0800000000000000
+      internalID: -2374443909168646036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 95
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811edf86c82b7710800000000000000
+      internalID: 1691990918290084238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 75
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832e777353e4a1d80800000000000000
+      internalID: -8279218974496398792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 79
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb866e3bad8bb1f20800000000000000
+      internalID: 3394509993614403774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 73
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289152bb0df498f30800000000000000
+      internalID: 4578278254110382466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 76
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b77e98f7971b0a0800000000000000
+      internalID: -6867574368081839291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 79
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117dc7d8051581eb0800000000000000
+      internalID: -4748956400649185519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 93
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1074d756006ccdf70800000000000000
+      internalID: 9213456642698200833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 61
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36468d3fa3678110800000000000000
+      internalID: 1263087824803350079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 59
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba8e7512e0fb3290800000000000000
+      internalID: -7909463466732254536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 57
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511e18ec164dbdc90800000000000000
+      internalID: -7143882867351625451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 53
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a02b2872702dbe0800000000000000
+      internalID: -1454091863409423831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 56
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1815871c7aaaa20800000000000000
+      internalID: 3074454145022919096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 64
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f73cbb00559c460800000000000000
+      internalID: 7262429335750147898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 36
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4146c5da90814a6d0800000000000000
+      internalID: -2980230623570140140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_15
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 35
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae2ebfac4d067ff0800000000000000
+      internalID: -38828923768918367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 41
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8db054c273787a0800000000000000
+      internalID: -6375066084243154724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 19
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad1458fa88060bd0800000000000000
+      internalID: -2664432736578298449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Lamp2_Asset_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8eab53bdb7c70a0800000000000000
+      internalID: -6882489949099464457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cartoon_Lamp2_Asset_0: -2374443909168646036
+      Cartoon_Lamp2_Asset_1: 1691990918290084238
+      Cartoon_Lamp2_Asset_10: -7143882867351625451
+      Cartoon_Lamp2_Asset_11: -1454091863409423831
+      Cartoon_Lamp2_Asset_12: 3074454145022919096
+      Cartoon_Lamp2_Asset_13: 7262429335750147898
+      Cartoon_Lamp2_Asset_14: -2980230623570140140
+      Cartoon_Lamp2_Asset_15: -38828923768918367
+      Cartoon_Lamp2_Asset_16: -6375066084243154724
+      Cartoon_Lamp2_Asset_17: -2664432736578298449
+      Cartoon_Lamp2_Asset_18: -6882489949099464457
+      Cartoon_Lamp2_Asset_2: -8279218974496398792
+      Cartoon_Lamp2_Asset_3: 3394509993614403774
+      Cartoon_Lamp2_Asset_4: 4578278254110382466
+      Cartoon_Lamp2_Asset_5: -6867574368081839291
+      Cartoon_Lamp2_Asset_6: -4748956400649185519
+      Cartoon_Lamp2_Asset_7: 9213456642698200833
+      Cartoon_Lamp2_Asset_8: 1263087824803350079
+      Cartoon_Lamp2_Asset_9: -7909463466732254536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
