@@ -12,8 +12,8 @@ public class GameController : MonoBehaviour
     [Tooltip("IDs required to finish this level (must match CollectibleItem.itemId).")]
     public List<string> requiredItemIds = new();
 
-    [Header("Interactable")]
-    public List<Interactable> interactableItems = new();
+    //[Header("Interactable")]
+    //public List<Interactable> interactableItems = new();
 
     [Header("Next Scene")]
     [Tooltip("Scene to load after zoom completes.")]
@@ -51,13 +51,6 @@ public class GameController : MonoBehaviour
         // If all required items are collected, finish the level
         if (collected.Count >= requiredItemIds.Count)
             StartCoroutine(CompleteLevel());
-    }
-
-    // Called by ClickCollector when a interactable was clicked
-    public void Interact(Interactable item)
-    {
-        if (!interactableItems.Contains(item)) return;
-        item.Clicked();
     }
 
     private IEnumerator CompleteLevel()

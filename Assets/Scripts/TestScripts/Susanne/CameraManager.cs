@@ -109,6 +109,15 @@ public class CameraManager: MonoBehaviour
             background = null;
         }
 
+        if (paintingTarget == null)
+        {
+            GameObject paintingObj = GameObject.FindWithTag("PaintingTarget");
+            if (paintingObj != null)
+            {
+                paintingTarget = paintingObj.transform;
+            }
+        }
+
         // uncomment if we get aspect problem solved
         //switch (scene.name)
         //{
@@ -246,11 +255,11 @@ public class CameraManager: MonoBehaviour
 
     public IEnumerator ZoomToPainting()
     {
-        if (paintingTarget == null)
-        {
-            Debug.LogError("CameraManager: paintingTarget is NULL when starting ZoomToPainting!");
-            yield break;
-        }
+        //if (paintingTarget == null)
+        //{
+        //    Debug.LogError("CameraManager: paintingTarget is NULL when starting ZoomToPainting!");
+        //    yield break;
+        //}
 
         Vector3 startPos = camera.transform.position;
         float startSize = camera.orthographicSize;
