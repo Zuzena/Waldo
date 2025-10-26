@@ -29,7 +29,7 @@ public class ClickCollector : MonoBehaviour
         if (!hitObj) return;
 
         // If the clicked object is a CollectibleItem, try collecting it
-        if (hit.TryGetComponent(out ItemInteract i))
+        if (hit.TryGetComponent(out Interactable i))
             GameController.I.Interact(i);
     }
 }

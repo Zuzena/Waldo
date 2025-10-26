@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 769b672c668e50a4487b41b59c43c639
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1892038936721833309
+    second: Cartoon_LavaLamp_Asset_0
+  - first:
+      213: -3993957469613418316
+    second: Cartoon_LavaLamp_Asset_1
+  - first:
+      213: -634758629082224213
+    second: Cartoon_LavaLamp_Asset_2
+  - first:
+      213: 915744949898149616
+    second: Cartoon_LavaLamp_Asset_3
+  - first:
+      213: 984574010502135451
+    second: Cartoon_LavaLamp_Asset_4
+  - first:
+      213: -9190305811226603397
+    second: Cartoon_LavaLamp_Asset_5
+  - first:
+      213: 6971015533953677969
+    second: Cartoon_LavaLamp_Asset_6
+  - first:
+      213: -1279317527512101119
+    second: Cartoon_LavaLamp_Asset_7
+  - first:
+      213: -2413363116816949836
+    second: Cartoon_LavaLamp_Asset_8
+  - first:
+      213: 4625136529646283439
+    second: Cartoon_LavaLamp_Asset_9
+  - first:
+      213: 2752842238143515582
+    second: Cartoon_LavaLamp_Asset_10
+  - first:
+      213: -661325951128320174
+    second: Cartoon_LavaLamp_Asset_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 426
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d3384736fd14a10800000000000000
+      internalID: 1892038936721833309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 17
+        width: 174
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b89caf97dc9298c0800000000000000
+      internalID: -3993957469613418316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 425
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9a073d362e037f0800000000000000
+      internalID: -634758629082224213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 408
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe798b1e2165bc00800000000000000
+      internalID: 915744949898149616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 386
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ebf0798d8e9ad00800000000000000
+      internalID: 984574010502135451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 317
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7051a89e89757080800000000000000
+      internalID: -9190305811226603397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 273
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19af901b1b50eb060800000000000000
+      internalID: 6971015533953677969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 261
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fc5b1ac73fe3ee0800000000000000
+      internalID: -1279317527512101119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 253
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd98142803028ed0800000000000000
+      internalID: -2413363116816949836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 200
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faaef3f2b29cf2040800000000000000
+      internalID: 4625136529646283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 233
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb4c3f2e6f043620800000000000000
+      internalID: 2752842238143515582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_LavaLamp_Asset_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 211
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257cf322d8f72d6f0800000000000000
+      internalID: -661325951128320174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cartoon_LavaLamp_Asset_0: 1892038936721833309
+      Cartoon_LavaLamp_Asset_1: -3993957469613418316
+      Cartoon_LavaLamp_Asset_10: 2752842238143515582
+      Cartoon_LavaLamp_Asset_11: -661325951128320174
+      Cartoon_LavaLamp_Asset_2: -634758629082224213
+      Cartoon_LavaLamp_Asset_3: 915744949898149616
+      Cartoon_LavaLamp_Asset_4: 984574010502135451
+      Cartoon_LavaLamp_Asset_5: -9190305811226603397
+      Cartoon_LavaLamp_Asset_6: 6971015533953677969
+      Cartoon_LavaLamp_Asset_7: -1279317527512101119
+      Cartoon_LavaLamp_Asset_8: -2413363116816949836
+      Cartoon_LavaLamp_Asset_9: 4625136529646283439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

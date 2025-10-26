@@ -34,6 +34,7 @@ public class CameraManager: MonoBehaviour
     public float defaultZoom = 0.6f;
 
     [Header("Background info for camera bounds")]
+    [Tooltip("Searches automatically, can be left empty")]
     public SpriteRenderer background;
 
     void Awake()
@@ -245,6 +246,12 @@ public class CameraManager: MonoBehaviour
 
     public IEnumerator ZoomToPainting()
     {
+        if (paintingTarget == null)
+        {
+            Debug.LogError("CameraManager: paintingTarget is NULL when starting ZoomToPainting!");
+            yield break;
+        }
+
         Vector3 startPos = camera.transform.position;
         float startSize = camera.orthographicSize;
 
