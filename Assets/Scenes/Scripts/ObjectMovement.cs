@@ -5,6 +5,8 @@ public class ObjectMovement : MonoBehaviour
   [Header("Movement Setting")]
   [SerializeField] private float moveDistance = 2f;
   [SerializeField] private float moveSpeed = 3f;
+  // [SerializeField] private float tiltAngle = 15f;
+  // [SerializeField] private float rotationSpeed = 180f;
 
 [Header("Movement Direction")]
   public bool moveLeft;
@@ -89,7 +91,12 @@ public class ObjectMovement : MonoBehaviour
       
       if (isMoving)
       {
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+      transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        
+        // Rotate clockwise at 90 degrees per second
+            float rotationSpeed = 90f; // degrees per second
+            transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
+
         if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
         {
           isMoving = false;
