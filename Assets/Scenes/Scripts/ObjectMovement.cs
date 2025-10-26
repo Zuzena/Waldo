@@ -1,32 +1,48 @@
 using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
-
-     [SerializeField] private float moveDistance = 2f;
-     [SerializeField] private float moveSpeed = 3f;
-    
-    private Vector3 targetPosition;
-    private bool isMoving = false;
 {
+  [SerializeField] private float moveDistance = 2f;
+  [SerializeField] private float moveSpeed = 3f;
+
+  private Vector3 startingPosition;
+  private Vector3 targetPosition;
+  private bool isMoving = false;
+  private bool movedLeft = false;
+  private Camera 
+
   // Start is called once before the first execution of Update after the MonoBehaviour is created
   void Start()
-  {           
-    targetPosition = transform.position;
+  {
+    startingPosition = transform.position;
+    targetPosition = startingPosition;
   }
 
   // Update is called once per frame
-  void onMouseDown()
+ 
+
+    void Update()
   {
-    targetPosition = transform.position + Vector3.left * moveDistance;
-    isMoving = true;
-  }
-  void Update()
-  {
-    if (isMoving)
+      if (Input.GetMouseButtonDown(0))
     {
-      transform.position += Vector3.left * moveDistance;
+        Vector3 mousePosition = 
+       } 
+
+      if (isMoving)
+    {
+        
+        transform.position += Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+
+        //stop moving once we reach the target
+      }
+      if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
+      {
+        isMoving = false;
+
       }
     }
   }
+
+  
 
 
