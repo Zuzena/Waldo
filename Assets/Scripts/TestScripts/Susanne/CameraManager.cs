@@ -1,9 +1,9 @@
-﻿using System.Collections;         
-using UnityEngine;                
-using UnityEngine.InputSystem;    
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class CameraManager: MonoBehaviour
+public class CameraManager : MonoBehaviour
 {
     public static CameraManager instance { get; private set; }
     private Camera camera;
@@ -65,9 +65,6 @@ public class CameraManager: MonoBehaviour
 
         targetZoom = defaultZoom;
         canZoom = false;
-
-        // uncomment if we get aspect problem solved
-        //OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
     }
 
     void OnEnable()
@@ -86,27 +83,12 @@ public class CameraManager: MonoBehaviour
         //update camera reference
         camera = Camera.main;
 
-        //find the painting target
-        GameObject targetObj = GameObject.FindWithTag("PaintingTarget");
-        if (targetObj != null)
-        {
-            paintingTarget = targetObj.transform;
-        }
-        else
-        {
-            paintingTarget = null;
-        }
-
         //find a new background and update bounds
         GameObject backgroundObj = GameObject.FindWithTag("Background");
         if (backgroundObj != null)
         {
             background = backgroundObj.GetComponent<SpriteRenderer>();
             bounds = background.bounds;
-        }
-        else
-        {
-            background = null;
         }
 
         if (paintingTarget == null)
@@ -118,27 +100,28 @@ public class CameraManager: MonoBehaviour
             }
         }
 
-        // uncomment if we get aspect problem solved
-        //switch (scene.name)
-        //{
-        //    case "MainMenu":
-        //        // 4:3 for menus/UI, add other scene names if needed
-        //        Screen.SetResolution(1024, 768, false);
-        //        break;
-        //    default:
-        //        // 16:9 for levels
-        //        Screen.SetResolution(1920, 1080, false);
-        //        break;
-        //}
+        switch (scene.name)
+        {
+            case "Level 2":
+                // 4:3 for menus/UI, add other scene names if needed
+                camera.orthographicSize = StartZoom * 0.6f; ;
+                defaultZoom = camera.orthographicSize;
+                targetZoom = defaultZoom;
+                followUnlocked = true;
+                break;
+            case "Level 3":
+                zoomUnlocked = true;
+                break;
+        }
     }
-    
+
     void Update()
     {
         if (zoomUnlocked)
         {
             handleZoom();
         }
-            
+
         if (followUnlocked)
         {
             followCursor();
@@ -219,7 +202,7 @@ public class CameraManager: MonoBehaviour
         {
             position.x = Mathf.Clamp(mousePosition.x, minX, maxX);
         }
-            
+
         if (bounds.size.y <= viewH)
         {
             position.y = bounds.center.y;
@@ -228,38 +211,29 @@ public class CameraManager: MonoBehaviour
         {
             position.y = Mathf.Clamp(mousePosition.y, minY, maxY);
         }
-            
-        return position;
-    }
 
-    private void unlockCameraEffect()
-    {
-        //update level
-        level++;
-        switch (level)
-        {
-            // level 2 unlocks cursor following camera
-            // level 3 unlocks camera zoom in and lock position during that
-            case 2:
-                // zoom camera a little to allow room for moving camera arround
-                camera.orthographicSize = StartZoom * 0.6f; ;
-                defaultZoom = camera.orthographicSize;
-                targetZoom = defaultZoom;
-                followUnlocked = true;
-                break;
-            case 3:
-                zoomUnlocked = true;
-                break;
-        }
+        return position;
     }
 
     public IEnumerator ZoomToPainting()
     {
-        //if (paintingTarget == null)
-        //{
-        //    Debug.LogError("CameraManager: paintingTarget is NULL when starting ZoomToPainting!");
-        //    yield break;
-        //}
+        yield return new WaitForSeconds(0.3f);
+
+        float waitTime = 0f;
+        while (paintingTarget == null && waitTime < 2f)
+        {
+            GameObject targetObj = GameObject.FindWithTag("PaintingTarget");
+            if (targetObj != null)
+            {
+                paintingTarget = targetObj.transform;
+                break;
+            }
+
+            waitTime += Time.deltaTime;
+            yield return null;
+        }
+
+        if (paintingTarget == null) yield break;
 
         Vector3 startPos = camera.transform.position;
         float startSize = camera.orthographicSize;
@@ -281,7 +255,5 @@ public class CameraManager: MonoBehaviour
 
             yield return null;
         }
-
-        unlockCameraEffect();
     }
 }
