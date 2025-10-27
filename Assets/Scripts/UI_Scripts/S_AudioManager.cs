@@ -7,7 +7,8 @@ public class S_AudioManager : MonoBehaviour
 
     public AudioSource bgmSource;
     public AudioSource sfxSource;
-    public AudioClip[] musicTracks; 
+    public AudioClip[] musicTracks;
+    public AudioClip[] sfxSounds;
     private int musicIndex = 0;
 
     //on awake, make sure this is the only one and we're loading in right
@@ -61,5 +62,13 @@ public class S_AudioManager : MonoBehaviour
             bgmSource.Play();
         }
 
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        if (sfxSource != null && clip != null)
+        {
+            sfxSource.PlayOneShot(clip);
+        }
     }
 }
