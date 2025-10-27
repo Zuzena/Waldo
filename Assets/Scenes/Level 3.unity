@@ -2487,7 +2487,7 @@ MonoBehaviour:
   - ABS 3
   - ABS 4
   - ABS 5
-  nextSceneName: 
+  nextSceneName: Level 4
 --- !u!4 &1843230146
 Transform:
   m_ObjectHideFlags: 0

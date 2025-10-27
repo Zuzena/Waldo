@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public static GameController I { get; private set; }
     private CameraManager cameraManager;
+    private GameManager gameManager;
 
     public GameObject painting;
 
@@ -32,6 +33,11 @@ public class GameController : MonoBehaviour
         if (cameraManager == null)
         {
             cameraManager = Object.FindAnyObjectByType<CameraManager>();
+        }
+
+        if (gameManager == null)
+        {
+            gameManager = Object.FindAnyObjectByType<GameManager>();
         }
 
         // Uncomment if you want to persist this controller across scenes !!not sure how we will handle this yet!!
@@ -73,7 +79,13 @@ public class GameController : MonoBehaviour
         if (nextSceneName != null)
         {
             yield return StartCoroutine(cameraManager.ZoomToPainting());
-            SceneManager.LoadScene(nextSceneName);
+            
+            if(nextSceneName == "Level 4")
+            {
+                gameManager.showCredits = true;
+                nextSceneName = "MainMenu";
+            }
+            SceneManager.LoadScene(nextSceneName);  
         } 
     }
 }
