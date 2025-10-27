@@ -36,6 +36,15 @@ public class GameController : MonoBehaviour
         //DontDestroyOnLoad(gameObject);
     }
 
+    //pause menu implementation
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+
+        }
+    }
+
     // Called by ClickCollector when a collectible was clicked
     public void TryCollect(CollectibleItem item)
     {
@@ -55,6 +64,7 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
+        S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[1]);
         if (nextSceneName != null)
         {
             yield return StartCoroutine(cameraManager.ZoomToPainting());

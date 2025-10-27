@@ -34,6 +34,7 @@ public class Interactable : MonoBehaviour
     private float targetAngle;
     private float startingAngle;
     private Camera mainCamera;
+    private Collider2D myCol;
 
     void Start()
     {
@@ -42,6 +43,7 @@ public class Interactable : MonoBehaviour
         startingAngle = transform.eulerAngles.z;
         targetPosition = startingPosition;
         targetAngle = startingAngle;
+        myCol = GetComponent<Collider2D>();   // Save my collider
     }
 
     private void HandleMovement()
@@ -98,9 +100,17 @@ public class Interactable : MonoBehaviour
         // Unity event if one is set in the inspector
         onClicked?.Invoke();
 
+        // fallback if camera reference is missing
+        if (mainCamera == null) mainCamera = Camera.main;
+        if (mainCamera == null) return;
+
         //gets mouseposition to world space
         Vector3 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0f;
+
+        // prefer checking this object's own collider so clicks don't pass through other objects
+        var selfCol = GetComponent<Collider2D>();
+        bool hitSelf = selfCol != null && selfCol.OverlapPoint(mousePosition);
 
         Collider2D overLap = Physics2D.OverlapPoint(mousePosition);
         //if (overLap != null)
@@ -112,12 +122,23 @@ public class Interactable : MonoBehaviour
         //    Debug.Log("Nothing clicked");
         //}
 
-        if (overLap != null && overLap.gameObject == gameObject && !isMoving)
+        // accept click if we hit our own collider OR (fallback) Physics2D reported this exact GameObject
+        if ((hitSelf || (overLap != null && overLap.gameObject == gameObject)) && !isMoving)
         {
+            // audio safety: only play if manager exists and the index is valid
+            if (S_AudioManager.instance != null && S_AudioManager.instance.sfxSounds != null)
+            {
+                if (isAtStart && S_AudioManager.instance.sfxSounds.Length > 4)
+                    S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[4]);
+                else if (!isAtStart && S_AudioManager.instance.sfxSounds.Length > 3)
+                    S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[3]);
+            }
+
             if (movingObject) HandleMovement();
             else if (canRotate) HandleRotation();
         }
     }
+
 
     void Update()
     {
