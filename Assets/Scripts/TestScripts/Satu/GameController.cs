@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
     public static GameController I { get; private set; }
     private CameraManager cameraManager;
 
+    public GameObject painting;
+
     [Header("Goal")]
     [Tooltip("IDs required to finish this level (must match CollectibleItem.itemId).")]
     public List<string> requiredItemIds = new();
@@ -34,6 +36,8 @@ public class GameController : MonoBehaviour
 
         // Uncomment if you want to persist this controller across scenes !!not sure how we will handle this yet!!
         //DontDestroyOnLoad(gameObject);
+
+        painting.SetActive(false);
     }
 
     //pause menu implementation
@@ -64,6 +68,7 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
+        painting.SetActive(true);
         S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[1]);
         if (nextSceneName != null)
         {

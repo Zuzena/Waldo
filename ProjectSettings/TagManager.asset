@@ -7,6 +7,7 @@ TagManager:
   - Background
   - PaintingTarget
   - Crayon_pieces-2 2_0
+  - WHOLE
   layers:
   - Default
   - TransparentFX
