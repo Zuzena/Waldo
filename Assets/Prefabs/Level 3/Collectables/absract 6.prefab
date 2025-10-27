@@ -79,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: -199083477
   m_SortingLayer: 2
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 1f74fccb85158624daf4a90b02ab3b6c, type: 3}
+  m_Sprite: {fileID: 5161564346204129847, guid: edd5f382f7aa70642bf7aaf25629009a, type: 3}
   m_Color: {r: 0.9803922, g: 0.9568628, b: 0.4784314, a: 0.5882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.61, y: 5.54}
+  m_Size: {x: 3.83, y: 3.93}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -174,12 +174,12 @@ SpriteRenderer:
   m_SortingLayerID: -199083477
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 329774423653307650, guid: 9909b1dd5518c06428b0ed6f8850913c, type: 3}
+  m_Sprite: {fileID: 4378440652342145516, guid: 36a60f55245c5b34085dec83393e318e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 1.57}
+  m_Size: {x: 3.83, y: 3.93}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -223,13 +223,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.66, y: 3.39}
-    newSize: {x: 0.96, y: 1.57}
+    oldSize: {x: 3.83, y: 3.93}
+    newSize: {x: 3.83, y: 3.93}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.69, y: 6.16}
+  m_Size: {x: 4.05, y: 3.94}
   m_EdgeRadius: 0
 --- !u!114 &1293962353682787413
 MonoBehaviour:
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c19a695781dac8448c0537651bf878d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleItem
-  itemId: Drink
+  itemId: ABS 5
   destination: {fileID: 0}
   destinationOffset: {x: 0, y: 0, z: 0}
   keepCurrentZ: 1
@@ -281,7 +281,7 @@ MonoBehaviour:
   setSortingOnCollect: 1
   orderOnCollect: 4
   affectChildrenRenderers: 1
-  confettiPrefab: {fileID: 0}
+  confettiPrefab: {fileID: 3059291106685929328, guid: 02f6101f24b374a43af30d73042c28a9, type: 3}
   confettiOffset: {x: 0, y: 0, z: 0}
   confettiOrderInLayer: 5
   confettiLifetime: 0
