@@ -22,6 +22,7 @@ public class ClickCollector : MonoBehaviour
 
         // If the clicked object is a CollectibleItem, try collecting it
         if (hit.TryGetComponent(out CollectibleItem item))
+            S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[2]);
             GameController.I.TryCollect(item);
 
         //// OverlapPoint checks 2D colliders at the click position filtered by the interactableMask

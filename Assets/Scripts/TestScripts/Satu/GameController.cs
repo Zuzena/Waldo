@@ -64,6 +64,7 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
+        S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[1]);
         if (nextSceneName != null)
         {
             yield return StartCoroutine(cameraManager.ZoomToPainting());
