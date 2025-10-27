@@ -246,6 +246,18 @@ MonoBehaviour:
   onClicked:
     m_PersistentCalls:
       m_Calls: []
+  movingObject: 0
+  moveDistance: 2
+  moveSpeed: 3
+  moveLeft: 0
+  moveRight: 0
+  moveUp: 0
+  moveDown: 0
+  canRotate: 0
+  tiltAngle: 15
+  rotationSpeed: 180
+  rotateLeft: 0
+  rotateRight: 0
 --- !u!114 &6926075689798001833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,10 +271,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleItem
   itemId: Coffee
+  destination: {fileID: 0}
+  destinationOffset: {x: 0, y: 0, z: 0}
+  keepCurrentZ: 1
+  moveSpeed: 0
+  moveDuration: 0.6
+  easing:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  endScaleMultiplier: 0.3
   autoHideOnCollect: 1
   onCollected:
     m_PersistentCalls:
       m_Calls: []
+  setSortingOnCollect: 1
+  orderOnCollect: 4
+  affectChildrenRenderers: 1
+  confettiPrefab: {fileID: 3059291106685929328, guid: ba1d2bb9d6ef468499e2c0e19253b496, type: 3}
+  confettiOffset: {x: 0, y: 0, z: 0}
+  confettiOrderInLayer: 5
+  confettiLifetime: 0
 --- !u!114 &1793183360147636527
 MonoBehaviour:
   m_ObjectHideFlags: 0

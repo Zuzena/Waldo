@@ -581,6 +581,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4785283355837836202, guid: 4873a376befc186418c933ec43b3f2c3, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1161059568}
+    - target: {fileID: -4785283355837836202, guid: 4873a376befc186418c933ec43b3f2c3, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: ba1d2bb9d6ef468499e2c0e19253b496, type: 3}
     - target: {fileID: 656925766796118188, guid: 4873a376befc186418c933ec43b3f2c3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -865,6 +873,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 233072879093981135, guid: 5df9f23a33f01bf4790fedee4b1794e0, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1161059568}
+    - target: {fileID: 233072879093981135, guid: 5df9f23a33f01bf4790fedee4b1794e0, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: ba1d2bb9d6ef468499e2c0e19253b496, type: 3}
     - target: {fileID: 1289167261055627838, guid: 5df9f23a33f01bf4790fedee4b1794e0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.47853753
@@ -922,6 +938,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df9f23a33f01bf4790fedee4b1794e0, type: 3}
+--- !u!1 &1161059567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161059568}
+  m_Layer: 0
+  m_Name: PaintingLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161059568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161059567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.21, y: -0.39524, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1452799558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -930,6 +977,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1074468285471791237, guid: c2652236a7687564bbbcadb348530b95, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1161059568}
+    - target: {fileID: 1074468285471791237, guid: c2652236a7687564bbbcadb348530b95, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: ba1d2bb9d6ef468499e2c0e19253b496, type: 3}
     - target: {fileID: 1289167261055627838, guid: c2652236a7687564bbbcadb348530b95, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3582
@@ -1310,10 +1365,22 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+    - target: {fileID: 4277580808773207426, guid: 109ed5ff60f1b1c4b925d74fa655269d, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6170048738212576998, guid: 109ed5ff60f1b1c4b925d74fa655269d, type: 3}
       propertyPath: m_Name
       value: Coffee
       objectReference: {fileID: 0}
+    - target: {fileID: 6926075689798001833, guid: 109ed5ff60f1b1c4b925d74fa655269d, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1161059568}
+    - target: {fileID: 6926075689798001833, guid: 109ed5ff60f1b1c4b925d74fa655269d, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: ba1d2bb9d6ef468499e2c0e19253b496, type: 3}
     - target: {fileID: 7506685301547458372, guid: 109ed5ff60f1b1c4b925d74fa655269d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1347,3 +1414,4 @@ SceneRoots:
   - {fileID: 512882712}
   - {fileID: 793593776}
   - {fileID: 1872721660}
+  - {fileID: 1161059568}
