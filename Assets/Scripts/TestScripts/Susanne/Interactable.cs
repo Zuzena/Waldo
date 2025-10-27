@@ -114,6 +114,9 @@ public class Interactable : MonoBehaviour
 
         if (overLap != null && overLap.gameObject == gameObject && !isMoving)
         {
+            if (isAtStart) S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[4]);
+            else S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[3]);
+
             if (movingObject) HandleMovement();
             else if (canRotate) HandleRotation();
         }
