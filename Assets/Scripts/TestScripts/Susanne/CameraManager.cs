@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CameraManager : MonoBehaviour
 {
     public static CameraManager instance { get; private set; }
+    [SerializeField] private GameObject credits;
     private Camera camera;
     private Bounds bounds;
 
