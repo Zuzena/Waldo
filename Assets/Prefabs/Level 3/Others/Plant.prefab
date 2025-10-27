@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9073399228130789139}
   - component: {fileID: 6560032492890254038}
   - component: {fileID: 4770426662138506571}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -199083477
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 0eb3172ff0f0aef47ace2fb759f7154d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -153,3 +153,15 @@ MonoBehaviour:
   onClicked:
     m_PersistentCalls:
       m_Calls: []
+  movingObject: 0
+  moveDistance: 2
+  moveSpeed: 3
+  moveLeft: 0
+  moveRight: 0
+  moveUp: 0
+  moveDown: 0
+  canRotate: 0
+  tiltAngle: 15
+  rotationSpeed: 180
+  rotateLeft: 0
+  rotateRight: 0

@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 9641dd1ac23875040b628c6146f9d7fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3579365548147763992
+    second: Portal_Crayon-to-Abstract_3_0
+  - first:
+      213: 2921762057526620097
+    second: Portal_Crayon-to-Abstract_3_1
+  - first:
+      213: 1520516750106894418
+    second: Portal_Crayon-to-Abstract_3_2
+  - first:
+      213: 4176349790177908493
+    second: Portal_Crayon-to-Abstract_3_3
+  - first:
+      213: -2877071925228697339
+    second: Portal_Crayon-to-Abstract_3_4
+  - first:
+      213: 1489663977675166511
+    second: Portal_Crayon-to-Abstract_3_5
+  - first:
+      213: 7090813918474581005
+    second: Portal_Crayon-to-Abstract_3_6
+  - first:
+      213: 1293541803459679523
+    second: Portal_Crayon-to-Abstract_3_7
+  - first:
+      213: -1212474585650435279
+    second: Portal_Crayon-to-Abstract_3_8
+  - first:
+      213: 7948354862257044207
+    second: Portal_Crayon-to-Abstract_3_9
+  - first:
+      213: 8150487561692552445
+    second: Portal_Crayon-to-Abstract_3_10
+  - first:
+      213: 8146946907306889401
+    second: Portal_Crayon-to-Abstract_3_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 444
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4916d8ff9835ec0800000000000000
+      internalID: -3579365548147763992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 445
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfa6157c1f2c8820800000000000000
+      internalID: 2921762057526620097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 448
+        width: 124
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250272d9de5f91510800000000000000
+      internalID: 1520516750106894418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 447
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07d455c10065f930800000000000000
+      internalID: 4176349790177908493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 451
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5098e7fc3569218d0800000000000000
+      internalID: -2877071925228697339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 450
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f231600ce795ca410800000000000000
+      internalID: 1489663977675166511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 393
+        width: 246
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04b21ba0b1a76260800000000000000
+      internalID: 7090813918474581005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 83
+        width: 477
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3251551ba6593f110800000000000000
+      internalID: 1293541803459679523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_8
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 334
+        width: 18
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bed1fc9cc6c2fe0800000000000000
+      internalID: -1212474585650435279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_9
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 387
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea749192aa3e4e60800000000000000
+      internalID: 7948354862257044207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 266
+        width: 13
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc9ce411495c1170800000000000000
+      internalID: 8150487561692552445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_3_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 331
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b09efd3c05cf0170800000000000000
+      internalID: 8146946907306889401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Portal_Crayon-to-Abstract_3_0: -3579365548147763992
+      Portal_Crayon-to-Abstract_3_1: 2921762057526620097
+      Portal_Crayon-to-Abstract_3_10: 8150487561692552445
+      Portal_Crayon-to-Abstract_3_11: 8146946907306889401
+      Portal_Crayon-to-Abstract_3_2: 1520516750106894418
+      Portal_Crayon-to-Abstract_3_3: 4176349790177908493
+      Portal_Crayon-to-Abstract_3_4: -2877071925228697339
+      Portal_Crayon-to-Abstract_3_5: 1489663977675166511
+      Portal_Crayon-to-Abstract_3_6: 7090813918474581005
+      Portal_Crayon-to-Abstract_3_7: 1293541803459679523
+      Portal_Crayon-to-Abstract_3_8: -1212474585650435279
+      Portal_Crayon-to-Abstract_3_9: 7948354862257044207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

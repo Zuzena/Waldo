@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1289167261055627838}
   - component: {fileID: 9073399228130789139}
   - component: {fileID: -6190167136669525132}
-  - component: {fileID: 9090689084082940440}
-  m_Layer: 3
+  - component: {fileID: 8207667563164944779}
+  m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -199083477
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: b22a16f4cedf0294b8bc075803f106b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -107,13 +107,28 @@ MonoBehaviour:
   onClicked:
     m_PersistentCalls:
       m_Calls: []
---- !u!135 &9090689084082940440
-SphereCollider:
+  movingObject: 0
+  moveDistance: 2
+  moveSpeed: 3
+  moveLeft: 0
+  moveRight: 0
+  moveUp: 0
+  moveDown: 0
+  canRotate: 0
+  tiltAngle: 15
+  rotationSpeed: 180
+  rotateLeft: 0
+  rotateRight: 0
+--- !u!61 &8207667563164944779
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6170048738212576998}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -122,9 +137,31 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 2.175
-  m_Center: {x: 0, y: 0, z: 0}
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.56, y: 4.35}
+    newSize: {x: 5.61, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.53, y: 3.53}
+  m_EdgeRadius: 0
