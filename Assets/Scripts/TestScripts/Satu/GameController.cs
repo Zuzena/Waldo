@@ -43,7 +43,10 @@ public class GameController : MonoBehaviour
         // Uncomment if you want to persist this controller across scenes !!not sure how we will handle this yet!!
         //DontDestroyOnLoad(gameObject);
 
-        painting.SetActive(false);
+        if (painting != null)
+        {
+            painting.SetActive(false);
+        }
     }
 
     //pause menu implementation
@@ -79,12 +82,9 @@ public class GameController : MonoBehaviour
         if (nextSceneName != null)
         {
             yield return StartCoroutine(cameraManager.ZoomToPainting());
-            
-            if(nextSceneName == "Level 4")
-            {
-                gameManager.showCredits = true;
-                nextSceneName = "MainMenu";
-            }
+
+            gameManager.showCredits = true;
+             
             SceneManager.LoadScene(nextSceneName);  
         } 
     }
