@@ -272,6 +272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: ab9fbdb8a003c5b48b8f34beb07bcbb5, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 22eb20d332620714a8ea1b1f649d77f6, type: 3}
     - target: {fileID: 6170048738212576998, guid: ab9fbdb8a003c5b48b8f34beb07bcbb5, type: 3}
       propertyPath: m_Name
       value: Plant
@@ -427,7 +431,6 @@ MonoBehaviour:
   - Lava
   - Plant
   - Painting
-  interactableItems: []
   nextSceneName: Level 3
 --- !u!4 &795494529
 Transform:
@@ -633,9 +636,6 @@ MonoBehaviour:
   collectibleMask:
     serializedVersion: 2
     m_Bits: 8
-  interactableMask:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!4 &933473651
 Transform:
   m_ObjectHideFlags: 0
@@ -699,6 +699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: 5e832b7f2c1bd254091b85d7431efe3d, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 22eb20d332620714a8ea1b1f649d77f6, type: 3}
     - target: {fileID: 6170048738212576998, guid: 5e832b7f2c1bd254091b85d7431efe3d, type: 3}
       propertyPath: m_Name
       value: Cups
@@ -866,6 +870,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: 623f364ddc599bf478b5a3780eb914e3, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 22eb20d332620714a8ea1b1f649d77f6, type: 3}
     - target: {fileID: 6170048738212576998, guid: 623f364ddc599bf478b5a3780eb914e3, type: 3}
       propertyPath: m_Name
       value: Painting
@@ -1035,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: 47e1e7f7656207749b1e9fd39c4f54fc, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 22eb20d332620714a8ea1b1f649d77f6, type: 3}
     - target: {fileID: 6170048738212576998, guid: 47e1e7f7656207749b1e9fd39c4f54fc, type: 3}
       propertyPath: m_Name
       value: Lamp 3

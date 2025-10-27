@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: a1bbda6ba961690408c7c581ec33fa8a, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 02f6101f24b374a43af30d73042c28a9, type: 3}
     - target: {fileID: 6170048738212576998, guid: a1bbda6ba961690408c7c581ec33fa8a, type: 3}
       propertyPath: m_Name
       value: Cat
@@ -531,6 +535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: eba80c7f0279cc14c98ac537aa82c17f, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 02f6101f24b374a43af30d73042c28a9, type: 3}
     - target: {fileID: 6170048738212576998, guid: eba80c7f0279cc14c98ac537aa82c17f, type: 3}
       propertyPath: m_Name
       value: Ball
@@ -948,6 +956,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: 90985e40a2002b9489e0a081ab090e6d, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 02f6101f24b374a43af30d73042c28a9, type: 3}
     - target: {fileID: 6170048738212576998, guid: 90985e40a2002b9489e0a081ab090e6d, type: 3}
       propertyPath: m_Name
       value: Boat
@@ -1175,6 +1187,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293962353682787413, guid: 8e0bdec545f231046bffa14f5b889c93, type: 3}
+      propertyPath: confettiPrefab
+      value: 
+      objectReference: {fileID: 3059291106685929328, guid: 02f6101f24b374a43af30d73042c28a9, type: 3}
     - target: {fileID: 6170048738212576998, guid: 8e0bdec545f231046bffa14f5b889c93, type: 3}
       propertyPath: m_Name
       value: Drink
@@ -1281,9 +1297,6 @@ MonoBehaviour:
   collectibleMask:
     serializedVersion: 2
     m_Bits: 8
-  interactableMask:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!4 &1353830798
 Transform:
   m_ObjectHideFlags: 0
@@ -1600,7 +1613,6 @@ MonoBehaviour:
   - Boat
   - Cat
   - Drink
-  interactableItems: []
   nextSceneName: 
 --- !u!4 &1881532974
 Transform:
