@@ -36,6 +36,15 @@ public class GameController : MonoBehaviour
         //DontDestroyOnLoad(gameObject);
     }
 
+    //pause menu implementation
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+
+        }
+    }
+
     // Called by ClickCollector when a collectible was clicked
     public void TryCollect(CollectibleItem item)
     {
