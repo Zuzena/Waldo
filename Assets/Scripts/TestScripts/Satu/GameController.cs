@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Progress;
 
 public class GameController : MonoBehaviour
 {
@@ -9,11 +11,10 @@ public class GameController : MonoBehaviour
     private CameraManager cameraManager;
     private GameManager gameManager;
 
-    public GameObject painting;
-
     [Header("Goal")]
     [Tooltip("IDs required to finish this level (must match CollectibleItem.itemId).")]
     public List<string> requiredItemIds = new();
+    public List<GameObject> piecesInPainting = new();
 
     //[Header("Interactable")]
     //public List<Interactable> interactableItems = new();
@@ -43,10 +44,7 @@ public class GameController : MonoBehaviour
         // Uncomment if you want to persist this controller across scenes !!not sure how we will handle this yet!!
         //DontDestroyOnLoad(gameObject);
 
-        if (painting != null)
-        {
-            painting.SetActive(false);
-        }
+        piecesInPainting.ForEach(p => p.SetActive(false));
     }
 
     //pause menu implementation
@@ -67,8 +65,14 @@ public class GameController : MonoBehaviour
         // Ignore duplicates
         if (!collected.Add(item.itemId)) return;
 
-        // Trigger item feedback and optionally hide it
-        item.Collected();
+        GameObject obj = piecesInPainting.FirstOrDefault(o => o.GetComponent<CollectibleItem>()?.itemId == item.itemId);
+
+        if (obj != null)
+        {
+            // Trigger item feedback and optionally hide it
+            item.Collected(obj.transform);
+            obj.SetActive(true);
+        }
 
         // If all required items are collected, finish the level
         if (collected.Count >= requiredItemIds.Count)
@@ -77,7 +81,6 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
-        painting.SetActive(true);
         S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[1]);
         if (nextSceneName != null)
         {
@@ -87,5 +90,10 @@ public class GameController : MonoBehaviour
              
             SceneManager.LoadScene(nextSceneName);  
         } 
+    }
+
+    public void RevealPiece(GameObject obj)
+    {
+        
     }
 }

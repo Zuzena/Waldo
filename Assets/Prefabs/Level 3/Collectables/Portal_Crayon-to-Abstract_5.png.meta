@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: ba2e6b2f2d9d05c4883e9e700a41aa29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 450877068738957136
+    second: Portal_Crayon-to-Abstract_5_0
+  - first:
+      213: 4489051572389957633
+    second: Portal_Crayon-to-Abstract_5_1
+  - first:
+      213: 7203885898196317752
+    second: Portal_Crayon-to-Abstract_5_2
+  - first:
+      213: -4143994451938656335
+    second: Portal_Crayon-to-Abstract_5_3
+  - first:
+      213: -9183987045674302766
+    second: Portal_Crayon-to-Abstract_5_4
+  - first:
+      213: -7597718541390811003
+    second: Portal_Crayon-to-Abstract_5_5
+  - first:
+      213: -5208943140052557127
+    second: Portal_Crayon-to-Abstract_5_6
+  - first:
+      213: 1425042712865288334
+    second: Portal_Crayon-to-Abstract_5_7
+  - first:
+      213: -6415382168689016465
+    second: Portal_Crayon-to-Abstract_5_8
+  - first:
+      213: 8343119255471667093
+    second: Portal_Crayon-to-Abstract_5_9
+  - first:
+      213: 2119093668819773018
+    second: Portal_Crayon-to-Abstract_5_10
+  - first:
+      213: -4341521645471098983
+    second: Portal_Crayon-to-Abstract_5_11
+  - first:
+      213: 7992731340228845063
+    second: Portal_Crayon-to-Abstract_5_12
+  - first:
+      213: 7781845628125303461
+    second: Portal_Crayon-to-Abstract_5_13
+  - first:
+      213: 6599010617970840867
+    second: Portal_Crayon-to-Abstract_5_14
+  - first:
+      213: -1339421321971756349
+    second: Portal_Crayon-to-Abstract_5_15
+  - first:
+      213: -2816437001360344185
+    second: Portal_Crayon-to-Abstract_5_16
+  - first:
+      213: -322757815028284669
+    second: Portal_Crayon-to-Abstract_5_17
+  - first:
+      213: -6124214450683411238
+    second: Portal_Crayon-to-Abstract_5_18
+  - first:
+      213: 4381013606725808462
+    second: Portal_Crayon-to-Abstract_5_19
+  - first:
+      213: 7277856664312828357
+    second: Portal_Crayon-to-Abstract_5_20
+  - first:
+      213: 7694164630380272909
+    second: Portal_Crayon-to-Abstract_5_21
+  - first:
+      213: 1746909494777178483
+    second: Portal_Crayon-to-Abstract_5_22
+  - first:
+      213: 731654450031523687
+    second: Portal_Crayon-to-Abstract_5_23
+  - first:
+      213: -8311695068360003567
+    second: Portal_Crayon-to-Abstract_5_24
+  - first:
+      213: -5068127584638672860
+    second: Portal_Crayon-to-Abstract_5_25
+  - first:
+      213: -947794960427428270
+    second: Portal_Crayon-to-Abstract_5_26
+  - first:
+      213: -5320417491404189511
+    second: Portal_Crayon-to-Abstract_5_27
+  - first:
+      213: 8524918799598004609
+    second: Portal_Crayon-to-Abstract_5_28
+  - first:
+      213: -5030424791847285452
+    second: Portal_Crayon-to-Abstract_5_29
+  - first:
+      213: -3381950227356382955
+    second: Portal_Crayon-to-Abstract_5_30
+  - first:
+      213: 3093353239147365022
+    second: Portal_Crayon-to-Abstract_5_31
+  - first:
+      213: -4013751823379672322
+    second: Portal_Crayon-to-Abstract_5_32
+  - first:
+      213: 1742182935985155959
+    second: Portal_Crayon-to-Abstract_5_33
+  - first:
+      213: 8568631552079995828
+    second: Portal_Crayon-to-Abstract_5_34
+  - first:
+      213: 4998014351477498316
+    second: Portal_Crayon-to-Abstract_5_35
+  - first:
+      213: 1265016877715584044
+    second: Portal_Crayon-to-Abstract_5_36
+  - first:
+      213: -3583286238990347338
+    second: Portal_Crayon-to-Abstract_5_37
+  - first:
+      213: 3758851816758165830
+    second: Portal_Crayon-to-Abstract_5_38
+  - first:
+      213: -8014407781794775436
+    second: Portal_Crayon-to-Abstract_5_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 117
+        width: 416
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f0e8f1e46d14600800000000000000
+      internalID: 450877068738957136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 657
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10056befe905c4e30800000000000000
+      internalID: 4489051572389957633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 510
+        width: 55
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836ff6c7e0859f360800000000000000
+      internalID: 7203885898196317752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_3
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 599
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfb10570039d76c0800000000000000
+      internalID: -4143994451938656335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 605
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d24bc8d07ceb8080800000000000000
+      internalID: -9183987045674302766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_5
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 589
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5807005bd3b7f8690800000000000000
+      internalID: -7597718541390811003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 578
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2a5f1ffcd16b7b0800000000000000
+      internalID: -5208943140052557127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 568
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8038121cc4c6c310800000000000000
+      internalID: 1425042712865288334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_8
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 557
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f618ae068ebf7f6a0800000000000000
+      internalID: -6415382168689016465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 540
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5973c1552c6b8c370800000000000000
+      internalID: 8343119255471667093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 528
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5628cfd678886d10800000000000000
+      internalID: 2119093668819773018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 422
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9979609d011dfb3c0800000000000000
+      internalID: -4341521645471098983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 518
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ed87f7ec2ebee60800000000000000
+      internalID: 7992731340228845063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 459
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2d5596e5baefb60800000000000000
+      internalID: 7781845628125303461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 458
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325de29a135649b50800000000000000
+      internalID: 6599010617970840867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c21a4b776b696de0800000000000000
+      internalID: -1339421321971756349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 169
+        width: 44
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b76a928710ae8d0800000000000000
+      internalID: -2816437001360344185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 413
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30302ce2a75558bf0800000000000000
+      internalID: -322757815028284669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_18
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 410
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad483b2976b620ba0800000000000000
+      internalID: -6124214450683411238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 400
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e417b09e9ac7ccc30800000000000000
+      internalID: 4381013606725808462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 391
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c153929314200560800000000000000
+      internalID: 7277856664312828357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 368
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dd03547f927ca60800000000000000
+      internalID: 7694164630380272909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_22
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 365
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37963f21ee44e3810800000000000000
+      internalID: 1746909494777178483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 334
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767767888db572a00800000000000000
+      internalID: 731654450031523687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 340
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11039016f5de6ac80800000000000000
+      internalID: -8311695068360003567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 329
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420e04950d46aa9b0800000000000000
+      internalID: -5068127584638672860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_26
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 298
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25651df4181c8d2f0800000000000000
+      internalID: -947794960427428270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 305
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b01418fa741a26b0800000000000000
+      internalID: -5320417491404189511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_28
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 289
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189a6153b789e4670800000000000000
+      internalID: 8524918799598004609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 250
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dcf9cdd47503ab0800000000000000
+      internalID: -5030424791847285452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_30
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 230
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5190f52cf26e011d0800000000000000
+      internalID: -3381950227356382955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_31
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 216
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92ce28b16ccdea20800000000000000
+      internalID: 3093353239147365022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_32
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 207
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2d0ee7bf94c48c0800000000000000
+      internalID: -4013751823379672322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_33
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 181
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f6429562a7d2810800000000000000
+      internalID: 1742182935985155959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 191
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3aee08ff4e9e670800000000000000
+      internalID: 8568631552079995828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_35
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 110
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1ee1272938c5540800000000000000
+      internalID: 4998014351477498316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_36
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 178
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c247c1fd52e3e8110800000000000000
+      internalID: 1265016877715584044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_37
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 139
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b35f64962c954ec0800000000000000
+      internalID: -3583286238990347338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_38
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 151
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641c335efcf1a2430800000000000000
+      internalID: 3758851816758165830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Crayon-to-Abstract_5_39
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 162
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47efef8a59a17c090800000000000000
+      internalID: -8014407781794775436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Portal_Crayon-to-Abstract_5_0: 450877068738957136
+      Portal_Crayon-to-Abstract_5_1: 4489051572389957633
+      Portal_Crayon-to-Abstract_5_10: 2119093668819773018
+      Portal_Crayon-to-Abstract_5_11: -4341521645471098983
+      Portal_Crayon-to-Abstract_5_12: 7992731340228845063
+      Portal_Crayon-to-Abstract_5_13: 7781845628125303461
+      Portal_Crayon-to-Abstract_5_14: 6599010617970840867
+      Portal_Crayon-to-Abstract_5_15: -1339421321971756349
+      Portal_Crayon-to-Abstract_5_16: -2816437001360344185
+      Portal_Crayon-to-Abstract_5_17: -322757815028284669
+      Portal_Crayon-to-Abstract_5_18: -6124214450683411238
+      Portal_Crayon-to-Abstract_5_19: 4381013606725808462
+      Portal_Crayon-to-Abstract_5_2: 7203885898196317752
+      Portal_Crayon-to-Abstract_5_20: 7277856664312828357
+      Portal_Crayon-to-Abstract_5_21: 7694164630380272909
+      Portal_Crayon-to-Abstract_5_22: 1746909494777178483
+      Portal_Crayon-to-Abstract_5_23: 731654450031523687
+      Portal_Crayon-to-Abstract_5_24: -8311695068360003567
+      Portal_Crayon-to-Abstract_5_25: -5068127584638672860
+      Portal_Crayon-to-Abstract_5_26: -947794960427428270
+      Portal_Crayon-to-Abstract_5_27: -5320417491404189511
+      Portal_Crayon-to-Abstract_5_28: 8524918799598004609
+      Portal_Crayon-to-Abstract_5_29: -5030424791847285452
+      Portal_Crayon-to-Abstract_5_3: -4143994451938656335
+      Portal_Crayon-to-Abstract_5_30: -3381950227356382955
+      Portal_Crayon-to-Abstract_5_31: 3093353239147365022
+      Portal_Crayon-to-Abstract_5_32: -4013751823379672322
+      Portal_Crayon-to-Abstract_5_33: 1742182935985155959
+      Portal_Crayon-to-Abstract_5_34: 8568631552079995828
+      Portal_Crayon-to-Abstract_5_35: 4998014351477498316
+      Portal_Crayon-to-Abstract_5_36: 1265016877715584044
+      Portal_Crayon-to-Abstract_5_37: -3583286238990347338
+      Portal_Crayon-to-Abstract_5_38: 3758851816758165830
+      Portal_Crayon-to-Abstract_5_39: -8014407781794775436
+      Portal_Crayon-to-Abstract_5_4: -9183987045674302766
+      Portal_Crayon-to-Abstract_5_5: -7597718541390811003
+      Portal_Crayon-to-Abstract_5_6: -5208943140052557127
+      Portal_Crayon-to-Abstract_5_7: 1425042712865288334
+      Portal_Crayon-to-Abstract_5_8: -6415382168689016465
+      Portal_Crayon-to-Abstract_5_9: 8343119255471667093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

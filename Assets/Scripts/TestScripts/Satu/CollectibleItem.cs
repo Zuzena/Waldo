@@ -57,11 +57,12 @@ public class CollectibleItem : MonoBehaviour
         }
     }
 
-    public void Collected()
+    public void Collected(Transform transform)
     {
         if (isCollecting) return;
         onCollected?.Invoke();
         StartCoroutine(CollectRoutine());
+        destination = transform;
     }
 
     private IEnumerator CollectRoutine()
