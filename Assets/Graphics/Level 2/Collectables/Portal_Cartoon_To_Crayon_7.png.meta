@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: f2f27b06b03bad64ba1083e2d6148457
+guid: df25ecff366d26b4ebd38808f3c69c52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6559179047934211426
-    second: Portal_Cartoon_To_Crayon_1_0
+      213: -8179688246484662326
+    second: Portal_Cartoon_To_Crayon_7_0
+  - first:
+      213: 8577759768969090723
+    second: Portal_Cartoon_To_Crayon_7_1
+  - first:
+      213: 2158918886686052690
+    second: Portal_Cartoon_To_Crayon_7_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal_Cartoon_To_Crayon_1_0
+      name: Portal_Cartoon_To_Crayon_7_0
       rect:
         serializedVersion: 2
-        x: 1969
-        y: 875
-        width: 1092
-        height: 808
+        x: 1974
+        y: 882
+        width: 1078
+        height: 764
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +160,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9a42bd686d19f4a0800000000000000
-      internalID: -6559179047934211426
+      spriteID: ac708dea0e8eb7e80800000000000000
+      internalID: -8179688246484662326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Cartoon_To_Crayon_7_1
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 881
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a61a0e10135a0770800000000000000
+      internalID: 8577759768969090723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Cartoon_To_Crayon_7_2
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 889
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251ddcbf94506fd10800000000000000
+      internalID: 2158918886686052690
       vertices: []
       indices: 
       edges: []
@@ -174,7 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Portal_Cartoon_To_Crayon_1_0: -6559179047934211426
+      Portal_Cartoon_To_Crayon_7_0: -8179688246484662326
+      Portal_Cartoon_To_Crayon_7_1: 8577759768969090723
+      Portal_Cartoon_To_Crayon_7_2: 2158918886686052690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2f27b06b03bad64ba1083e2d6148457
+guid: 9dbbec680056b63468073994a3bbfcb1
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -142,8 +142,8 @@ TextureImporter:
       name: Portal_Cartoon_To_Crayon_1_0
       rect:
         serializedVersion: 2
-        x: 1969
-        y: 875
+        x: 56
+        y: 53
         width: 1092
         height: 808
       alignment: 0
