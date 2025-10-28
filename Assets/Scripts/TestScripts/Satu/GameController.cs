@@ -23,6 +23,8 @@ public class GameController : MonoBehaviour
     [Tooltip("Scene to load after zoom completes.")]
     public string nextSceneName;
 
+    public GameObject painting;
+
     // Set of collected IDs (HashSet avoids duplicates)
     private readonly HashSet<string> collected = new();
 
@@ -45,6 +47,11 @@ public class GameController : MonoBehaviour
         //DontDestroyOnLoad(gameObject);
 
         piecesInPainting.ForEach(p => p.SetActive(false));
+
+        if (painting != null)
+        {
+            painting.SetActive(false);
+        }
     }
 
     //pause menu implementation
@@ -81,6 +88,8 @@ public class GameController : MonoBehaviour
 
     private IEnumerator CompleteLevel()
     {
+        painting.SetActive(true);
+
         S_AudioManager.instance.PlaySFX(S_AudioManager.instance.sfxSounds[1]);
         if (nextSceneName != null)
         {
