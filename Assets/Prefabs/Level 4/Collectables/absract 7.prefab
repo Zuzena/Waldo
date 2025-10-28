@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c19a695781dac8448c0537651bf878d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleItem
-  itemId: ABS 5
+  itemId: ABS 6
   destination: {fileID: 0}
   destinationOffset: {x: 0, y: 0, z: 0}
   keepCurrentZ: 1
